@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: hsl(30, 54%, 90%);
+}
+
+.container{
+    width: 50%;
+    background: white;
+    margin: 5% auto;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.container > img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.innercon{
+    border-radius: 10px;
+    background-color: hsl(330, 100%, 98%);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.container > h1{
+    font-family: Young Serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.container > .firstprg{
+    font-size: 14px;
+    font-family: Outfit;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: hsl(24, 5%, 18%);
+}
+
+.container > .innercon > h4{
+    font-family: Outfit;
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.firstlist{
+    margin-left: 20px;
+    font-family: Outfit;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: hsl(24, 5%, 18%);
+}
+
+h2{
+    color: hsl(14, 35%, 46%);
+    margin-bottom: 10px;
+    font-family: Young Serif;
+    font-weight: 400;
+}
+
+.secondlist{
+    margin-left: 20px;
+    font-family: Outfit;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: hsl(24, 5%, 18%);
+}
+
+.firstrow{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.thirdlist{
+    margin-left: 20px;
+    font-family: Outfit;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: hsl(24, 5%, 18%);
+}
+
+.secondrow{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.secondprg{
+    font-size: 14px;
+    font-family: Outfit;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: hsl(24, 5%, 18%);
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.firsttabrow{
+    font-size: 14px;
+    font-family: Outfit;
+    padding-bottom: 10px;
+    border-bottom: solid grey 1px;
+    padding-top: 10px;
+    padding-left: 15px;
+    color: hsl(24, 5%, 18%);
+}
+
+.firstrowlast{
+    font-size: 14px;
+    font-family: Outfit;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+    color: hsl(24, 5%, 18%);
+  
+}
+
+.sectabrow{
+    font-size: 14px;
+    font-family: Outfit;
+    padding-bottom: 10px;
+    border-bottom: solid grey 1px;
+    color: hsl(14, 35%, 46%);
+    padding-top: 10px;
+    font-weight: 700;
+    padding-right: 15px;
+
+}
+
+.secrowlast{
+    font-size: 14px;
+    font-family: Outfit;
+    color: hsl(14, 35%, 46%);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: 700; 
+    padding-right: 15px;  
+}
+
+.firstlist::marker{
+    color: hsl(332, 51%, 32%);
+}
+
+.secondlist::marker ,.thirdlist::marker{
+    color: hsl(14, 35%, 46%);
+}
+
